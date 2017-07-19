@@ -15,7 +15,7 @@ print model.fit(training_data_X, training_result_y)
 print model.coef_
 ### array([ 0.5,  0.5])
 
-# Test model to predict 
+# Use model to predict result
 test_data_X = [[3, 3], [100, 100], [9999, 9999]]
 print model.predict(test_data_X)
 ### [  3.00000000e+00   1.00000000e+02   9.99900000e+03]
